@@ -1,0 +1,92 @@
+/* Header: begin */
+.header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 999;
+   width: 100%;
+   background: linear-gradient(270deg, #3f0047, #1d0f5a);
+}
+
+.header__container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   height: var(--header-height);
+   padding: 0 48px;
+   color: #fff;
+}
+
+.header-logo {
+   display: flex;
+   align-items: center;
+}
+
+.header-logo__img {
+   display: block;
+   height: 148px;
+   margin-top: 4px;
+   margin-left: -20px;
+}
+
+.header a {
+   font-size: 14px;
+   color: #fff;
+   text-decoration: none;
+}
+
+/* Header: end */
+.rebate-box {
+   display: flex;
+   justify-content: center;
+}
+
+.rebate-img {
+   width: 80%;
+   margin-top: 48px;
+}
+
+.how-it-works ul {
+   padding-left: 32px;
+}
+
+.how-it-works li {
+   padding-top: 16px;
+   list-style: disc;
+}
+
+.regiter-img {
+   width: 64%;
+}
+
+.register-video {
+   display: block;
+   margin: 48px auto;
+   width: 840px;
+   height: 472px;
+}
+
+#register li {
+   padding-top: 16px;
+}
+
+#register .register-sublist {
+   padding-left: 20px;
+}
+
+#register .register-sublist > li {
+   padding-top: 10px;
+   list-style: disc;
+}
+
+.disclaimer {
+   font-size: 12px;
+   font-weight: 300;
+   font-style: italic;
+   color: #8d8c8c;
+   word-spacing: -1px;
+   text-align: center;
+   padding: 0 32px;
+   margin-top: 48px;
+}

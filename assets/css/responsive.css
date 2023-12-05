@@ -1,0 +1,124 @@
+/* 
+Breakpoints:
+1. high resolution pc: (min-width: 1200px)
+2. tablet pro & low resolution pc: (min-width: 992px) and (max-width: 1199px)
+3. tablet: (min-width: 768px) and (max-width: 991px)
+4. tablet mini: (min-width: 576px) and (max-width: 767px)
+5. phone: (min-width: 390px) and (max-width: 575px)
+6. low resolution phone: (max-width: 389px)
+*/
+
+/* 1. BASE */
+/* high resolution pc */
+@media (min-width: 1200px) {
+}
+
+/* phone & all tablets & low resolution pc */
+@media (max-width: 1199px) {
+   .disclaimer {
+      padding: 0px 32px;
+   }
+}
+
+/* phone & tablet mini & tablet */
+@media (max-width: 991px) {
+   .disclaimer {
+      padding: 0 12px;
+   }
+
+   .banner.section-container {
+      padding-top: 64px;
+   }
+
+   .register-video {
+      width: 560px;
+      height: 315px;
+   }
+
+   .rebate-img {
+      width: 100%;
+   }
+
+   .regiter-img {
+      width: 100%;
+   }
+}
+
+/* phone & tablet mini */
+@media (max-width: 767px) {
+   .header,
+   .footer {
+      padding-left: 24px;
+      padding-right: 24px;
+   }
+
+   .footer {
+      padding-top: 64px;
+      padding-bottom: 32px;
+   }
+
+   .disclaimer {
+      padding: 0;
+   }
+
+   .disclaimer > * {
+      font-size: 12px;
+      line-height: 1.42;
+   }
+}
+
+@media (max-width: 575px) {
+   .header,
+   .footer {
+      padding-left: 16px;
+      padding-right: 16px;
+   }
+
+   .header__container {
+      padding: 0;
+   }
+
+   .footer {
+      padding-top: 48px;
+      padding-bottom: 24px;
+   }
+
+   .disclaimer > * {
+      line-height: 1.4;
+   }
+
+   .register-video {
+      width: 374px;
+      height: 210px;
+   }
+
+   .rebate-img {
+      margin-top: 32px;
+   }
+}
+
+/* low resolution phone */
+@media (max-width: 389px) {
+   .header,
+   .footer {
+      padding-left: 8px;
+      padding-right: 8px;
+   }
+}
+
+/* 2. CUSTOM */
+/* tablet pro & low resolution pc */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* tablet mini */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+/* phone */
+@media (min-width: 390px) and (max-width: 575px) {
+}
