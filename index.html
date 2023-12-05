@@ -103,7 +103,9 @@
             </li>
             <li>Nhập <strong>địa chỉ email của bạn</strong>.</li>
             <li>Tạo <strong>mật khẩu</strong> cho tài khoản Exness theo các hướng dẫn bên dưới.</li>
-            <li>Nhập mã đối tác <strong>z1ksen0g22</strong> để liên kết tài khoản Exness của bạn với tài khoản đối tác
+            <li>Nhập mã đối tác <strong><i class="invite-code">z1ksen0g22</i></strong> để liên kết tài khoản Exness của
+               bạn với tài khoản
+               đối tác
                của chúng tôi.
                <img class="regiter-img mgt-16" src="./assets/img/register.jpg"
                   alt="Mã giới thiệu giảm 95% phí giao dịch">
@@ -162,5 +164,16 @@
       </div>
    </footer>
 </body>
+
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+      var registerLink = document.querySelector('a[href="#register"]');
+      registerLink.addEventListener("click", function (event) {
+         event.preventDefault();
+         var registerSection = document.getElementById("register");
+         registerSection.scrollIntoView({ behavior: "smooth" });
+      });
+   });
+</script>
 
 </html>
