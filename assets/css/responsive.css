@@ -36,7 +36,7 @@ Breakpoints:
    }
 
    .rebate-img {
-      width: 100%;
+      width: 40%;
    }
 
    .regiter-img {
@@ -55,6 +55,10 @@ Breakpoints:
    .footer {
       padding-top: 64px;
       padding-bottom: 32px;
+   }
+
+   .rebate-img {
+      width: 44%;
    }
 
    .disclaimer {
@@ -83,6 +87,10 @@ Breakpoints:
       padding-bottom: 24px;
    }
 
+   .rebate-img {
+      width: 60%;
+   }
+
    .disclaimer > * {
       line-height: 1.4;
    }
@@ -94,6 +102,10 @@ Breakpoints:
 
    .rebate-img {
       margin-top: 32px;
+   }
+
+   .rebate-img:last-child {
+      margin-top: 0;
    }
 }
 

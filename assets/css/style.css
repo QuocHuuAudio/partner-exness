@@ -39,6 +39,7 @@
 /* Header: end */
 .rebate-box {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-evenly;
    background: rgb(255, 255, 255);
    box-shadow: rgba(141, 145, 148, 0.12) 0px 2px 6px 0px,
