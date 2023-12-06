@@ -82,6 +82,10 @@
    height: 472px;
 }
 
+.header__btn:hover {
+   color: #ffcf03;
+}
+
 #register li {
    padding-top: 16px;
 }
@@ -100,6 +104,38 @@
    box-shadow: rgba(141, 145, 148, 0.12) 0px 2px 6px 0px,
       rgb(63, 31, 132) 0px 2px 0px 0px inset;
 } */
+
+.already-have-an-account__contact {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   margin-top: 4px;
+}
+
+.already-have-an-account__link {
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+   color: #000;
+   background-color: #ffcf03;
+   padding: 8px;
+   text-decoration: none;
+   margin-right: 8px;
+   border-radius: 100px;
+   transition: background ease-in 0.2s;
+}
+
+.already-have-an-account__link:hover {
+   background-color: rgb(255, 218, 57);
+}
+
+.contact__item {
+}
+
+.contact__link {
+   text-decoration: none;
+   color: cornflowerblue;
+}
 
 .disclaimer {
    font-size: 12px;
