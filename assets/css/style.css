@@ -39,19 +39,28 @@
 /* Header: end */
 .rebate-box {
    display: flex;
-   justify-content: center;
+   justify-content: space-evenly;
+   background: rgb(255, 255, 255);
+   box-shadow: rgba(141, 145, 148, 0.12) 0px 2px 6px 0px,
+      rgb(63, 31, 132) 0px 2px 0px 0px inset;
 }
 
 .rebate-img {
-   width: 80%;
-   margin-top: 48px;
+   width: 30%;
+   margin-top: 24px;
+   margin-bottom: 24px;
+   box-shadow: rgba(141, 145, 148, 0.16) 0px 0px 4px 0px;
+}
+
+.banner.section-container {
+   padding-top: 48px;
 }
 
 .invite-code {
    color: red;
 }
 
-.how-it-works ul {
+.how-it-works__list {
    padding-left: 32px;
 }
 
@@ -61,12 +70,13 @@
 }
 
 .regiter-img {
-   width: 64%;
+   width: 58%;
+   box-shadow: rgba(141, 145, 148, 0.16) 0px 2px 6px 0px;
 }
 
 .register-video {
    display: block;
-   margin: 48px auto;
+   margin: 32px 0;
    width: 840px;
    height: 472px;
 }
@@ -83,6 +93,12 @@
    padding-top: 10px;
    list-style: disc;
 }
+
+/* .already-have-an-account {
+   margin-top: 48px;
+   box-shadow: rgba(141, 145, 148, 0.12) 0px 2px 6px 0px,
+      rgb(63, 31, 132) 0px 2px 0px 0px inset;
+} */
 
 .disclaimer {
    font-size: 12px;

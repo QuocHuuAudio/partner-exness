@@ -80,6 +80,7 @@ video {
 html {
    font-family: "Roboto", sans-serif;
    color: var(--text-color);
+   background-color: #f4f5f6;
 }
 
 * {
@@ -110,6 +111,10 @@ p {
    margin-top: 32px !important;
 }
 
+.p-t-32 {
+   padding-top: 32px;
+}
+
 @media (min-width: 576px) {
    .mgt-sm-12 {
       margin-top: 12px !important;
@@ -128,8 +133,7 @@ p {
 
 .auto-wrap {
    display: block;
-   width: 90%;
-   margin-left: auto !important;
+   width: 80%;
    margin-right: auto !important;
 }
 
@@ -170,19 +174,21 @@ p {
 }
 
 .section-container {
-   /* text-align: center; */
-   padding-top: 64px;
-   padding-bottom: 48px;
+   padding-top: 48px;
+   padding-bottom: 32px;
    border: 1px solid var(--border-color);
 }
 
-.section-title {
+h1.section-title {
    font-size: 44px;
+}
+
+.section-title {
+   font-size: 28px;
    word-spacing: -3px;
    letter-spacing: -0.5px;
    margin-top: 32px;
    margin-bottom: 24px;
-   text-align: center;
 }
 
 /* .section-title-desc {
@@ -196,7 +202,6 @@ p {
 } */
 
 .section-description {
-   text-align: center;
    color: var(--text-color-lighter);
    margin-top: 24px;
    letter-spacing: 0.2px;
