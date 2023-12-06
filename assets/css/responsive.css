@@ -81,6 +81,10 @@ Breakpoints:
       padding: 0;
    }
 
+   .open-trade-account {
+      font-size: 18px;
+   }
+
    .footer {
       padding-top: 32px;
       padding-bottom: 24px;
