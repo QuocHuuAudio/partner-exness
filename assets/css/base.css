@@ -333,8 +333,8 @@ Breakpoints:
       padding-bottom: 48px;
    }
 
-   .section-title {
-      font-size: 42px;
+   h1.section-title {
+      font-size: 36px;
    }
 
    .section-title-desc {
@@ -349,8 +349,12 @@ Breakpoints:
       padding-bottom: 48px;
    }
 
+   h1.section-title {
+      font-size: 30px;
+   }
+
    .section-title {
-      font-size: 38px;
+      font-size: 22px;
    }
 }
 
@@ -362,7 +366,7 @@ Breakpoints:
    }
 
    .section-title {
-      font-size: 34px;
+      font-size: 24px;
    }
 
    .section-title-desc {

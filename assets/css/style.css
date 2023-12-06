@@ -109,7 +109,7 @@
    display: flex;
    justify-content: start;
    align-items: center;
-   margin-top: 4px;
+   margin-top: 12px;
 }
 
 .already-have-an-account__link {
@@ -127,9 +127,6 @@
 
 .already-have-an-account__link:hover {
    background-color: rgb(255, 218, 57);
-}
-
-.contact__item {
 }
 
 .contact__link {
