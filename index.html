@@ -62,7 +62,7 @@
    <section class="banner section-container">
       <div class="container-md">
          <h1 class="section-title">Backcom Exness là gì?
-            <br>
+            <br id="title-2">
             Hướng dẫn nhận Backcom sàn Exness
          </h1>
          <h2 class="p-t-32 section-title">Backcom Exness là gì?</h2>
@@ -229,6 +229,16 @@
          registerSection.scrollIntoView({ behavior: "smooth" });
       });
    });
+
+   window.addEventListener('resize', function () {
+      if (window.innerWidth <= 767) {
+         var title2Element = document.getElementById('title-2');
+         if (title2Element) {
+            title2Element.remove();
+         }
+      }
+   });
+
 </script>
 
 </html>
