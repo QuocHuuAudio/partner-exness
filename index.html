@@ -217,17 +217,18 @@
             <li>Tài khoản giao dịch mới của bạn sẽ xuất hiện trong mục "Tài khoản của tôi".</li>
          </ol>
          <p>Xin chúc mừng, bạn đã mở thành công một tài khoản giao dịch mới.</p>
-         <div class="already-have-an-account">
-            <p class="section-subtitle mgt-32 d-inline-block auto-wrap">
+         <div class="already-have-an-account auto-wrap">
+            <p class="section-subtitle mgt-32 d-inline-block">
                Nếu bạn đã có tài khoản Exness, bạn có thể tái sử dụng số điện thoại và giấy tờ cá nhân để xác minh. Chỉ
-               cần một địa chỉ email mới để đăng ký tài khoản mới. Nếu không muốn tạo tài khoản mới, hãy liên hệ chúng
-               tôi để được hỗ trợ chuyển đổi đối tác.
+               cần một địa chỉ email mới để đăng ký tài khoản mới. Nếu không muốn tạo tài khoản mới, bạn có thể chuyển
+               đổi đối tác (người giới thiệu) là chúng tôi để nhận Backcom 95%. Dưới đây là các bước thực hiện:
             </p>
-            <!-- <ol>
-               <li>Đăng nhập vào Exness</li>
-               <li>Click vào biểu tượng chat ở góc phải trang web để gặp nhân viên hỗ trợ trực tuyến</li>
-               <li>Lúc này, khung chat sẽ hiển thị các hỗ trợ bằng trò chuyện tự động.</li>
-            </ol> -->
+
+            <a id="change-ib" class="d-block mgt-8" href="./assets/pdf/change-ib.pdf" target="_blank">
+               <p><i>Xem PDF</i></p>
+            </a>
+            <embed class="mgt-8" src="./assets/pdf/change-ib.pdf" width="100%" height="520" type="application/pdf">
+
             <div class="already-have-an-account__contact">
                <a class="already-have-an-account__link" href="https://t.me/AsiaExnessPartner" target="_blank"
                   onclick="fbq('trackCustom', 'telegramClick')">
@@ -281,25 +282,6 @@
          registerSection.scrollIntoView({ behavior: "smooth" });
       });
    });
-
-   // Xử lý title
-   // (function () {
-   //    function handleResize() {
-   //       var title2Element = document.getElementById('title-2');
-
-   //       if (window.innerWidth <= 991) {
-   //          // Nếu kích thước màn hình nhỏ hơn hoặc bằng 991px
-   //          if (title2Element) {
-   //             title2Element.remove();
-   //          }
-   //       }
-   //    }
-
-   //    // Gọi hàm handleResize khi trang web được tải và khi cửa sổ thay đổi kích thước
-   //    window.addEventListener('load', handleResize);
-   //    window.addEventListener('resize', handleResize);
-   // })();
-
 </script>
 
 </html>

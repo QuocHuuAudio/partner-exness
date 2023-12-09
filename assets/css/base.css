@@ -133,7 +133,7 @@ p {
 
 .auto-wrap {
    display: block;
-   width: 80%;
+   width: 80% !important;
    margin-right: auto !important;
 }
 
@@ -322,7 +322,7 @@ Breakpoints:
    }
 
    .auto-wrap {
-      width: 100%;
+      width: 100% !important;
    }
 }
 
