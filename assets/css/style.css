@@ -141,7 +141,12 @@
 
 .contact__link {
    text-decoration: none;
-   color: cornflowerblue;
+   color: rgb(81, 134, 233);
+}
+
+.contact__link:hover {
+   text-decoration: underline;
+   color: rgb(44, 110, 233);
 }
 
 .disclaimer {
