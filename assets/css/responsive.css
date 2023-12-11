@@ -26,10 +26,6 @@ Breakpoints:
       padding: 0 12px;
    }
 
-   .banner.section-container {
-      padding-top: 64px;
-   }
-
    .register-video {
       width: 100%;
       height: 408px;
@@ -46,11 +42,6 @@ Breakpoints:
 
 /* phone & tablet mini */
 @media (max-width: 767px) {
-   .header {
-      padding-left: 24px;
-      padding-right: 24px;
-   }
-
    .footer {
       padding-top: 64px;
       padding-bottom: 32px;
@@ -71,13 +62,20 @@ Breakpoints:
 }
 
 @media (max-width: 575px) {
-   .header {
-      padding-left: 16px;
-      padding-right: 16px;
+   .header__container {
+      height: 56px;
    }
 
-   .header__container {
-      padding: 0;
+   .header-logo__img {
+      height: 36px;
+   }
+
+   .header__btn {
+      padding: 8px 16px;
+   }
+
+   .banner.section-container {
+      padding-top: 64px;
    }
 
    .open-trade-account {

@@ -86,11 +86,12 @@
 
 
    <header class="header">
-      <div class="header__container">
+      <div class="container-md header__container">
          <a href="#" class="header-logo">
-            <img class="header-logo__img" src="./assets/img/Exness_Partners_Logo_black.svg" alt="Exness Partner Logo">
+            <img class="header-logo__img" src="./assets/img/logo-desktop-40-h.svg" alt="Exness Partner Logo">
          </a>
-         <a href="#register" class="header__btn">Đăng ký tài khoản</a>
+         <a href="https://my.exness.com/accounts/sign-up/?utm_source=partners&campaign=19231&ex_ol=1"
+            class="header__btn">Đăng ký</a>
       </div>
    </header>
 
@@ -244,8 +245,9 @@
    <footer class="section-container footer">
       <div class="container-md">
          <div class="contact">
-            <p class="section-subtitle">Liên hệ chúng tôi nếu bạn có bất kỳ câu hỏi nào.</p>
-            <ul>
+            <img class="already-have-an-account__logo" src="./assets/img/logo-desktop-40-h.svg"
+               alt="Exness Partner Logo">
+            <ul class="mgt-16">
                <li class="contact__item">Telegram:
                   <a class="contact__link" href="https://t.me/AsiaExnessPartner" target="_blank"
                      onclick="fbq('trackCustom', 'telegramClick')">
@@ -270,16 +272,5 @@
       </div>
    </footer>
 </body>
-
-<script>
-   document.addEventListener("DOMContentLoaded", function () {
-      var registerLink = document.querySelector('a[href="#register"]');
-      registerLink.addEventListener("click", function (event) {
-         event.preventDefault();
-         var registerSection = document.getElementById("register");
-         registerSection.scrollIntoView({ behavior: "smooth" });
-      });
-   });
-</script>
 
 </html>

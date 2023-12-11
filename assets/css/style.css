@@ -5,7 +5,11 @@
    left: 0;
    z-index: 999;
    width: 100%;
-   background: linear-gradient(270deg, #3f0047, #1d0f5a);
+   background-color: #fff;
+   box-shadow: 0 2px 8px rgba(26, 24, 84, 0.03),
+      0 8px 20px rgba(26, 24, 84, 0.04), 0 36px 90px rgba(26, 24, 84, 0.08);
+   -webkit-box-shadow: 0 2px 8px rgba(26, 24, 84, 0.03),
+      0 8px 20px rgba(26, 24, 84, 0.04), 0 36px 90px rgba(26, 24, 84, 0.08);
 }
 
 .header__container {
@@ -13,8 +17,7 @@
    justify-content: space-between;
    align-items: center;
    position: relative;
-   height: var(--header-height);
-   padding: 0 48px;
+   height: 72px;
    color: #fff;
 }
 
@@ -24,16 +27,29 @@
 }
 
 .header-logo__img {
-   display: block;
-   height: 148px;
-   margin-top: 4px;
-   margin-left: -20px;
+   height: 44px;
 }
 
-.header a {
-   font-size: 14px;
-   color: #fff;
+.header__btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ffcf01;
+   color: #000;
+   font-size: 16px;
+   font-weight: 600;
    text-decoration: none;
+   -webkit-text-decoration: none;
+   user-select: none;
+   cursor: pointer;
+   border-radius: 4px;
+   padding: 12px 24px;
+   transition: background-color 0.3s ease, box-shadow 0.3s ease,
+      -webkit-box-shadow 0.3s ease;
+}
+
+.header__btn:hover {
+   background-color: #fbe169;
 }
 
 /* Header: end */
@@ -54,7 +70,7 @@
 }
 
 .banner.section-container {
-   padding-top: 48px;
+   padding-top: 80px;
 }
 
 .invite-code {
@@ -82,10 +98,6 @@
    height: 472px;
 }
 
-.header__btn:hover {
-   color: #ffcf03;
-}
-
 #register li {
    padding-top: 16px;
 }
@@ -106,15 +118,19 @@
    margin-top: 72px;
 }
 
+.already-have-an-account__logo {
+   margin-right: 64px;
+}
+
 .already-have-an-account__link {
    display: flex;
    align-items: center;
-   font-size: 18px;
+   font-size: 20px;
    color: #000;
    background-color: #ffcf03;
-   padding: 8px;
+   padding: 12px;
    text-decoration: none;
-   margin-right: 8px;
+   margin-right: 12px;
    border-radius: 100px;
    transition: background ease-in 0.2s;
 }
