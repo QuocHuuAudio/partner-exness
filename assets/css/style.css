@@ -161,7 +161,7 @@
 }
 
 /* Messenger plugin */
-iframe[name="blank_f293645e8a4118"] {
+iframe[name] {
    right: 4px !important;
 }
 
@@ -177,5 +177,5 @@ iframe[name="blank_f293645e8a4118"] {
 
 .gAklKS {
    margin-right: 16px !important;
-   margin-bottom: 92px !important;
+   margin-bottom: 88px !important;
 }
