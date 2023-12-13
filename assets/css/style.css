@@ -166,11 +166,23 @@
 }
 
 .lbvXTF {
-   margin: 16px 24px 16px !important;
+   margin: 16px 24px !important;
    inset: auto 0px 72px auto !important;
 }
 
 .gAklKS {
    margin-right: 24px !important;
    margin-bottom: 160px !important;
+}
+
+@media (max-width: 767px) {
+   .lbvXTF {
+      margin: 16px 24px !important;
+      inset: auto 0px 76px auto !important;
+   }
+
+   .gAklKS {
+      margin-right: 24px !important;
+      margin-bottom: 164px !important;
+   }
 }
