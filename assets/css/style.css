@@ -160,22 +160,17 @@
    margin-top: 48px;
 }
 
-/* Messenger plugin */
-iframe[name] {
-   right: 4px !important;
-}
-
 /* Telegram Widget */
 .jUXzLe {
    padding: 14px !important;
 }
 
 .lbvXTF {
-   margin: 16px !important;
-   inset: auto 0px 0px auto !important;
+   margin: 16px 24px 16px !important;
+   inset: auto 0px 72px auto !important;
 }
 
 .gAklKS {
-   margin-right: 16px !important;
-   margin-bottom: 88px !important;
+   margin-right: 24px !important;
+   margin-bottom: 160px !important;
 }
