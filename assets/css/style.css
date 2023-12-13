@@ -130,7 +130,7 @@
    background-color: #ffcf03;
    padding: 10px;
    text-decoration: none;
-   margin-right: 16px;
+   margin-right: 12px;
    border-radius: 100px;
    transition: background ease-in 0.2s;
 }
@@ -160,17 +160,22 @@
    margin-top: 48px;
 }
 
+/* Messenger plugin */
+iframe[name="blank_f293645e8a4118"] {
+   right: 4px !important;
+}
+
 /* Telegram Widget */
 .jUXzLe {
    padding: 14px !important;
 }
 
 .lbvXTF {
-   margin: 24px !important;
+   margin: 16px !important;
    inset: auto 0px 0px auto !important;
 }
 
 .gAklKS {
-   margin-right: 24px !important;
+   margin-right: 16px !important;
    margin-bottom: 92px !important;
 }
