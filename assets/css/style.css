@@ -86,6 +86,20 @@
    list-style: disc;
 }
 
+.backcom-amount__box {
+   display: flex;
+   justify-content: center;
+   background: rgb(255, 255, 255);
+   box-shadow: rgba(141, 145, 148, 0.12) 0px 2px 6px 0px,
+      rgb(63, 31, 132) 0px 2px 0px 0px inset;
+   margin-top: 24px;
+}
+
+.backcom-amount__img {
+   width: 76%;
+   padding: 24px;
+}
+
 .regiter-img {
    width: 58%;
    box-shadow: rgba(141, 145, 148, 0.16) 0px 2px 6px 0px;
