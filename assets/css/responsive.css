@@ -36,7 +36,11 @@ Breakpoints:
    }
 
    .rebate-img {
-      width: 44%;
+      width: 45%;
+   }
+
+   .rebate-img:last-child {
+      margin-top: 0;
    }
 
    .regiter-img {
@@ -46,6 +50,15 @@ Breakpoints:
 
 /* phone & tablet mini */
 @media (max-width: 767px) {
+   /* .header-logo__img.mobile {
+      display: block;
+      height: 52px;
+   }
+
+   .header-logo__img.desktop {
+      display: none;
+   } */
+
    .footer {
       padding-top: 64px;
       padding-bottom: 32px;
@@ -109,11 +122,11 @@ Breakpoints:
    }
 
    .rebate-img {
-      margin-top: 32px;
+      margin-top: 0;
    }
 
-   .rebate-img:last-child {
-      margin-top: 0;
+   .rebate-img:first-child {
+      margin-top: 32px;
    }
 }
 
