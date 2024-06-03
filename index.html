@@ -29,75 +29,14 @@
    <link rel="stylesheet" href="./assets/css/responsive.css">
    <link rel="shortcut icon" href="./assets/img/icon-144x144.png" type="image/png">
    <title>Backcom 95% phí giao dịch Forex với Exness</title>
-   <!-- Meta Pixel Code -->
-   <script>
-      !function (f, b, e, v, n, t, s) {
-         if (f.fbq) return; n = f.fbq = function () {
-            n.callMethod ?
-               n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-         };
-         if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-         n.queue = []; t = b.createElement(e); t.async = !0;
-         t.src = v; s = b.getElementsByTagName(e)[0];
-         s.parentNode.insertBefore(t, s)
-      }(window, document, 'script',
-         'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '311921651306508');
-      fbq('track', 'PageView');
-      fbq('track', 'ViewContent');
-   </script>
-   <noscript><img height="1" width="1" style="display:none"
-         src="https://www.facebook.com/tr?id=311921651306508&ev=PageView&noscript=1" /></noscript>
-   <!-- End Meta Pixel Code -->
 
-   <!-- Google tag (gtag.js) -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16593196938">
-   </script>
-   <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-
-      gtag('config', 'AW-16593196938');
-   </script>
 </head>
 
 <body>
 
-   <!-- Messenger Plugin chat Code -->
-   <div id="fb-root"></div>
-
-   <!-- Your Plugin chat code -->
-   <div id="fb-customer-chat" class="fb-customerchat">
-   </div>
-
    <!-- Telegram Widget -->
    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
    <div class="elfsight-app-4951db1d-4cdf-465b-95b7-394b15efe28c" data-elfsight-app-lazy></div>
-
-   <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "199121556607949");
-      chatbox.setAttribute("attribution", "biz_inbox");
-   </script>
-
-   <!-- Your SDK code -->
-   <script>
-      window.fbAsyncInit = function () {
-         FB.init({
-            xfbml: true,
-            version: 'v18.0'
-         });
-      };
-
-      (function (d, s, id) {
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) return;
-         js = d.createElement(s); js.id = id;
-         js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-         fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-   </script>
 
 
    <header class="header">
@@ -190,10 +129,9 @@
          <p class="section-subtitle">Để đăng ký tài khoản qua mã giới thiệu của chúng tôi, thực hiện các bước sau:</p>
          <ol class="auto-wrap">
             <li>
-               Truy cập trang chủ <strong>Exness</strong>
-               <!-- <a href="https://www.exness.com/vi/?utm_source=partners&campaign=19231&ex_ol=1" target="_blank"
-                  onclick="fbq('trackCustom', 'exnessClick')">
-                  exness.com</a> -->
+               Truy cập trang chủ
+               <a href="https://www.exness.com/vi/" target="_blank" onclick="fbq('trackCustom', 'exnessClick')">
+                  https://www.exness.com</a>
                <i style="font-size: 14px;" class="mgt-8 d-inline-block">
                   Lưu ý: Trang web có thể không truy cập được do hạn chế vị trí địa lý, nếu gặp vấn đề này, bạn có thể
                   sử dụng dịch
@@ -304,6 +242,7 @@
    </footer>
 </body>
 
+<!-- Trượt từ nút đăng ký xuống #register -->
 <script>
    document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".header__btn").addEventListener("click", function (event) {
