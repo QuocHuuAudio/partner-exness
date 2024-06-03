@@ -95,8 +95,8 @@
             <img class="header-logo__img desktop" src="./assets/img/logo-desktop-40-h.svg" alt="Exness Logo">
             <img class="header-logo__img mobile" src="./assets/img/logo-mobile.svg" alt="Exness Logo">
          </a>
-         <a href="https://my.exness.com/accounts/sign-up/?utm_source=partners&campaign=19231&ex_ol=1"
-            class="header__btn" target="_blank" onclick="fbq('trackCustom', 'registerBtnClick')">Đăng ký</a>
+         <a href="#register" class="header__btn" onclick="fbq('trackCustom', 'registerBtnClick')">Đăng
+            ký</a>
       </div>
    </header>
 
@@ -179,10 +179,10 @@
          <p class="section-subtitle">Để đăng ký tài khoản qua mã giới thiệu của chúng tôi, thực hiện các bước sau:</p>
          <ol class="auto-wrap">
             <li>
-               Truy cập trang
-               <a href="https://www.exness.com/vi/?utm_source=partners&campaign=19231&ex_ol=1" target="_blank"
+               Truy cập trang chủ <strong>Exness</strong>
+               <!-- <a href="https://www.exness.com/vi/?utm_source=partners&campaign=19231&ex_ol=1" target="_blank"
                   onclick="fbq('trackCustom', 'exnessClick')">
-                  exness.com</a>
+                  exness.com</a> -->
                <i style="font-size: 14px;" class="mgt-8 d-inline-block">
                   Lưu ý: Trang web có thể không truy cập được do hạn chế vị trí địa lý, nếu gặp vấn đề này, bạn có thể
                   sử dụng dịch
@@ -243,10 +243,10 @@
                đổi đối tác (người giới thiệu) là chúng tôi để nhận Backcom 95%. Dưới đây là các bước thực hiện:
             </p>
 
-            <embed class="mgt-16" src="./assets/pdf/change-ib.pdf" width="100%" height="520" type="application/pdf">
             <a class="d-block mgt-8" href="./assets/pdf/change-ib.pdf" target="_blank">
                <p style="font-size: 18px;"><i>Xem PDF</i></p>
             </a>
+            <embed class="mgt-16" src="./assets/pdf/change-ib.pdf" width="100%" height="520" type="application/pdf">
 
             <div class="already-have-an-account__contact">
                <a class="already-have-an-account__link" href="https://t.me/AsiaExnessPartner" target="_blank"
@@ -274,12 +274,12 @@
                      @AsiaExnessPartner
                   </a>
                </li>
-               <li class="contact__item">Facebook:
+               <!-- <li class="contact__item">Facebook:
                   <a class="contact__link" href="https://www.facebook.com/profile.php?id=61554018701514" target="_blank"
                      onclick="fbq('trackCustom', 'facebookClick')">
                      Asia Exness Partner
                   </a>
-               </li>
+               </li> -->
             </ul>
          </div>
 
@@ -292,5 +292,16 @@
       </div>
    </footer>
 </body>
+
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+      document.querySelector(".header__btn").addEventListener("click", function (event) {
+         event.preventDefault();
+         document.querySelector("#register").scrollIntoView({
+            behavior: 'smooth'
+         });
+      });
+   });
+</script>
 
 </html>
