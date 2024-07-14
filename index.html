@@ -292,16 +292,21 @@
    </footer>
 </body>
 
-<!-- Trượt từ nút đăng ký xuống #register -->
+<!-- Trượt từ nút đăng ký và từ liên kết xuống #register -->
 <script>
    document.addEventListener("DOMContentLoaded", function () {
-      document.querySelector(".header__btn").addEventListener("click", function (event) {
+
+      document.querySelector(".header__btn").addEventListener("click", scrollToRegister);
+      document.querySelector("a.how-it-works__link").addEventListener("click", scrollToRegister);
+
+      function scrollToRegister(event) {
          event.preventDefault();
          document.querySelector("#register").scrollIntoView({
             behavior: 'smooth'
          });
-      });
+      }
    });
 </script>
+
 
 </html>
