@@ -34,6 +34,7 @@
    <link rel="stylesheet" href="./assets/css/reset.css">
    <link rel="stylesheet" href="./assets/css/grid.min.css">
    <link rel="stylesheet" href="./assets/css/base.css">
+   <link rel="stylesheet" href="./assets/css/lite-yt-embed.css">
    <link rel="stylesheet" href="./assets/css/style.css">
    <link rel="stylesheet" href="./assets/css/responsive.css">
    <link rel="shortcut icon" href="./assets/img/icon-144x144.png" type="image/png">
@@ -172,8 +173,9 @@
    <section class="section-container" id="register">
       <div class="container-md">
          <h2 class="section-title">Hướng dẫn đăng ký tài khoản Exness</h2>
-         <iframe class="register-video" src="https://www.youtube.com/embed/ebYLR5DVKLk" frameborder="0"
-            allowfullscreen></iframe>
+         <!-- <iframe class="register-video" src="https://www.youtube.com/embed/ebYLR5DVKLk" frameborder="0"
+            allowfullscreen></iframe> -->
+         <lite-youtube class="register-video" videoid="ebYLR5DVKLk"></lite-youtube>
          <p class="section-subtitle">Để đăng ký tài khoản qua mã giới thiệu của chúng tôi, thực hiện các bước sau:</p>
          <ol class="auto-wrap">
             <li>
@@ -290,6 +292,8 @@
          </div>
       </div>
    </footer>
+
+   <script src="./assets/js/lite-yt-embed.js"></script>
 </body>
 
 <!-- Trượt từ nút đăng ký và từ liên kết xuống #register -->

@@ -117,6 +117,7 @@
    display: block;
    margin: 32px 0;
    width: 840px;
+   max-width: none;
    height: 472px;
 }
 
