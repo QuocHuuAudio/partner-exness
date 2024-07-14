@@ -90,6 +90,10 @@
    list-style: disc;
 }
 
+.how-it-works__link {
+   color: rgb(81, 134, 233);
+}
+
 .backcom-amount__box {
    display: flex;
    justify-content: center;
@@ -174,7 +178,8 @@
    color: rgb(81, 134, 233);
 }
 
-.contact__link:hover {
+.contact__link:hover,
+.how-it-works__link:hover {
    text-decoration: underline;
    color: rgb(44, 110, 233);
 }
@@ -189,30 +194,3 @@
    padding: 0 32px;
    margin-top: 48px;
 }
-
-/* Telegram Widget */
-/* .jUXzLe {
-   padding: 14px !important;
-}
-
-.lbvXTF {
-   margin: 16px 24px !important;
-   inset: auto 0px 72px auto !important;
-}
-
-.gAklKS {
-   margin-right: 24px !important;
-   margin-bottom: 160px !important;
-}
-
-@media (max-width: 767px) {
-   .lbvXTF {
-      margin: 16px 24px !important;
-      inset: auto 0px 78px auto !important;
-   }
-
-   .gAklKS {
-      margin-right: 24px !important;
-      margin-bottom: 162px !important;
-   }
-} */
