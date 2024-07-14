@@ -168,10 +168,15 @@
    background-color: rgb(255, 218, 57);
 }
 
+.contact__item {
+   display: flex;
+   align-items: center;
+}
+
 .contact__icon {
-   background-color: #ffcf03;
-   padding: 6px;
-   border-radius: 100px;
+   width: 22px;
+   height: 22px;
+   margin-right: 4px;
 }
 
 .contact__link {
