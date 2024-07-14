@@ -91,8 +91,17 @@
    list-style: disc;
 }
 
-.how-it-works__link {
-   color: rgb(81, 134, 233);
+.internal-links__list > li {
+   list-style: none;
+   padding-top: 8px;
+}
+
+.internal-links__item {
+   text-decoration: none;
+   color: rgb(44, 110, 233);
+   font-weight: 500;
+   letter-spacing: -0.14px;
+   word-spacing: -0.6px;
 }
 
 .backcom-amount__box {
@@ -186,9 +195,10 @@
 }
 
 .contact__link:hover,
-.how-it-works__link:hover {
+.internal-links__item:hover {
    text-decoration: underline;
    color: rgb(44, 110, 233);
+   cursor: pointer;
 }
 
 .disclaimer {

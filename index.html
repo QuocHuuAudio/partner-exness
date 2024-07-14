@@ -100,7 +100,7 @@
             <img class="header-logo__img desktop" src="./assets/img/logo-desktop-40-h.svg" alt="Exness Logo">
             <img class="header-logo__img mobile" src="./assets/img/logo-mobile.svg" alt="Exness Logo">
          </a>
-         <a href="#register" class="header__btn" onclick="fbq('trackCustom', 'registerBtnClick')">Đăng
+         <a href="#register" class="header__btn scroll-behavior" onclick="fbq('trackCustom', 'registerBtnClick')">Đăng
             ký</a>
       </div>
    </header>
@@ -110,14 +110,15 @@
          <h1 class="section-title">Backcom Exness là gì?<br id="title-2">Hướng dẫn nhận Backcom sàn Exness</h1>
          <h2 class="p-t-32 section-title">Backcom Exness là gì?</h2>
          <p class="auto-wrap">
-            Backcom Exness, viết tắt của "Back Commission Exness", là chương trình hoàn trả phí giao dịch dành
-            riêng cho các nhà giao dịch trên sàn Exness thông qua người giới thiệu (IB). Đây là chương trình khuyến
+            Backcom Exness, viết tắt của "Back Commission Exness", là chương trình hoàn trả phí giao dịch hàng ngày dành
+            riêng cho các nhà giao dịch trên sàn Exness, thông qua người giới thiệu (IB). Đây là chương trình khuyến
             mãi duy nhất của Exness, mang lại lợi ích cho cả nhà giao dịch và IB.
             <br>
             <br>
-            Qua Backcom, bạn có thể nhận lại đến 95% phí giao dịch mỗi ngày. Đây thực sự là một cơ hội hấp dẫn dành cho
+            Qua Backcom Exness, bạn có thể nhận lại đến 95% phí giao dịch mỗi ngày. Đây thực sự là một cơ hội hấp dẫn
+            dành cho
             các trader, giúp họ tiết kiệm chi phí giao dịch và tối ưu hóa lợi nhuận hàng ngày của mình. Hãy cùng chúng
-            tôi khám phá những lợi ích mà Backcom mang lại cho chiến lược giao dịch của bạn!
+            tôi khám phá những lợi ích mà Backcom Exness mang lại cho chiến lược giao dịch của bạn!
          </p>
          <div class="rebate-box mgt-32">
             <img class="rebate-img" src="./assets/img/backcom-95.jpg" alt="Backcom Exness 95%">
@@ -156,10 +157,18 @@
                   Khoản
                   tiền này sẽ tự động <strong>ghi có</strong> vào tài khoản của bạn vào 13h-15h hàng ngày.</li>
             </ul>
-            <p class="section-subtitle d-block mgt-16">Chuyển đến:
-               <a class="how-it-works__link" href="#register">Hướng dẫn đăng ký tài khoản Exness với mã giới
-                  thiệu</a>
-            </p>
+            <span class="section-subtitle d-block mgt-32">Chuyển đến:</span>
+            <ul class="internal-links__list mgt-8">
+               <li>
+                  <a class="internal-links__item scroll-behavior" href="#register">Hướng dẫn đăng ký tài khoản Exness
+                     với mã giới thiệu</a>
+               </li>
+               <li>
+                  <a class="internal-links__item scroll-behavior" href="#change-ib">Hướng dẫn chuyển người giới thiệu
+                     cho tài khoản Exness có sẵn</a>
+               </li>
+            </ul>
+
          </div>
       </div>
    </section>
@@ -306,7 +315,7 @@
 </body>
 
 <!-- Trượt từ nút đăng ký và từ liên kết xuống #register -->
-<script>
+<!-- <script>
    document.addEventListener("DOMContentLoaded", function () {
 
       document.querySelector(".header__btn").addEventListener("click", scrollToRegister);
@@ -319,7 +328,26 @@
          });
       }
    });
-</script>
+</script> -->
+<script>
+   document.addEventListener('DOMContentLoaded', function () {
+      const links = document.querySelectorAll('a.scroll-behavior');
 
+      links.forEach(link => {
+         link.addEventListener('click', function (event) {
+            event.preventDefault();
+
+            const targetId = link.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+               targetElement.scrollIntoView({
+                  behavior: 'smooth'
+               });
+            }
+         });
+      });
+   });
+</script>
 
 </html>
